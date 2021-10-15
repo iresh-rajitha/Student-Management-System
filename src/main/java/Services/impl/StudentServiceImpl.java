@@ -39,9 +39,17 @@ public class StudentServiceImpl implements StudentService {
 
     @Override
     public Student getOne(int id) {
-        return studentList.stream()
+
+        return studentList != null ?
+                studentList.stream()
                 .filter(student1 -> student1.getId() == id)
                 .collect(Collectors.toList())
-                .get(0);
+                .get(0) :
+                null;
+    }
+
+    @Override
+    public int generateID() {
+        return studentList.get(studentList.size()-1).getId() + 1;
     }
 }

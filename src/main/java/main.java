@@ -17,7 +17,7 @@ public class main {
             System.out.println("3 - Session");
             System.out.println("4 - Attendance");
             System.out.print("Your choice:");
-            input = scan.nextInt();
+            input = Integer.parseInt(scan.nextLine());
             if (1 == input){
                 StudentFunction studentFunction = new StudentFunction();
                 studentFunction.studentConsole(scan);

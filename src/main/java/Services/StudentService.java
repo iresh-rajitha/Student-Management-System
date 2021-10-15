@@ -10,5 +10,6 @@ public interface StudentService extends SuperService {
     public boolean delete(int id);
     public List<Student> getAll();
     public Student getOne(int id);
+    public int generateID();
 
 }
