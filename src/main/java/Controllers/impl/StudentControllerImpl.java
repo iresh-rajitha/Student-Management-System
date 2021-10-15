@@ -38,4 +38,9 @@ public class StudentControllerImpl implements StudentController {
     public Student getOne(int id) {
         return studentService.getOne(id);
     }
+
+    @Override
+    public int generateID() {
+        return studentService.generateID();
+    }
 }

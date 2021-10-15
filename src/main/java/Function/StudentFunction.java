@@ -41,7 +41,7 @@ public class StudentFunction {
         System.out.println("Exit From Student");
     }
     public boolean addStudent(Scanner scanner)  {
-        studentController.add(getStudentDetails(scanner));
+        studentController.add(getStudentDetails(scanner,0));
         return true;
     }
     public void getOneStudent(Scanner scanner){
@@ -60,19 +60,26 @@ public class StudentFunction {
     public void getAllStudents(){
         List<Student> students= studentController.getAll();
         System.out.println("=============================================");
-        for (Student student : students){
-            System.out.println("Student ID:"+ student.getId());
-            System.out.println("Student Name:"+ student.getName());
-            System.out.println("Student Date of Birth:"+ student.getDob());
-            System.out.println("Student Joined date:"+ student.getJoinedDate());
-            System.out.println("=============================================");
+        if (students.size()>0){
+            for (Student student : students){
+                System.out.println("Student ID:"+ student.getId());
+                System.out.println("Student Name:"+ student.getName());
+                System.out.println("Student Date of Birth:"+ student.getDob());
+                System.out.println("Student Joined date:"+ student.getJoinedDate());
+                System.out.println("=============================================");
+            }
+        }else{
+            System.out.println("Student list is empty");
         }
     }
-    public Student getStudentDetails(Scanner scanner){
+    public Student getStudentDetails(Scanner scanner, int id){
         Student student =  new Student();
 
-        System.out.print("ID :");
-        student.setId(Integer.parseInt(scanner.nextLine()));
+//        System.out.print("ID :");
+        if (id==0){
+            id=studentController.generateID();
+        }
+        student.setId(id);
 
         System.out.print("Name : ");
         student.setName(scanner.nextLine());
@@ -98,9 +105,14 @@ public class StudentFunction {
         return student;
     }
     public void updateStudent(Scanner scanner){
+        System.out.print(" student ID :");
+        int studentId= Integer.parseInt(scanner.nextLine());
+        studentController.update(getStudentDetails(scanner,studentId));
 
     }
     public void deleteStudent(Scanner scanner){
-
+        System.out.print(" student ID :");
+        int studentId= Integer.parseInt(scanner.nextLine());
+        studentController.delete(studentId);
     }
 }

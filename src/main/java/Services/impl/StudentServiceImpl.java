@@ -50,6 +50,6 @@ public class StudentServiceImpl implements StudentService {
 
     @Override
     public int generateID() {
-        return studentList.get(studentList.size()-1).getId() + 1;
+        return studentList.size() !=0 ? studentList.get(studentList.size()-1).getId() + 1 : 1;
     }
 }
