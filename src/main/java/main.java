@@ -1,3 +1,4 @@
+import function.ClassFunction;
 import function.StudentFunction;
 
 import java.util.Scanner;
@@ -19,6 +20,9 @@ public class main {
             if (1 == input){
                 StudentFunction studentFunction = new StudentFunction();
                 studentFunction.studentConsole(scan);
+            } else if (2 == input) {
+                ClassFunction classFunction = new ClassFunction();
+                classFunction.classConsole(scan);
             }
         }while(0 != input);
         scan.close();
