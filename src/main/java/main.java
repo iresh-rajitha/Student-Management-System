@@ -21,6 +21,8 @@ public class main {
             if (1 == input){
                 StudentFunction studentFunction = new StudentFunction();
                 studentFunction.studentConsole(scan);
+            } else if (2 == input) {
+
             }
         }while(0 != input);
         scan.close();

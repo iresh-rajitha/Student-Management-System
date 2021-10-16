@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="677ea606-8d25-466c-abf4-3c4c83743925" name="Default Changelist" comment="" />
+    <list default="true" id="677ea606-8d25-466c-abf4-3c4c83743925" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Function/StudentFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Function/StudentFunction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,24 +24,26 @@
       </list>
     </option>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
     </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1zBWAWkI5PoiRQeF2iiWTzks39F" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Compressed/GymManagementSystem-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -48,7 +59,7 @@
   <component name="RunManager">
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main" />
-      <module name="Student Management" />
+      <module name="Student-Management-System" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -59,6 +70,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -73,68 +85,24 @@
       <workItem from="1633699236987" duration="1853000" />
       <workItem from="1633774868342" duration="9879000" />
       <workItem from="1633787380258" duration="6875000" />
+      <workItem from="1634368384490" duration="134000" />
+      <workItem from="1634368539043" duration="1140000" />
+      <workItem from="1634388135467" duration="1689000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="361" y="71" key="#Project_Structure" timestamp="1633785512041">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1633785512041" />
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1633621925749">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1633621925749" />
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1633787722152">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1633787722152" />
-    <state x="566" y="284" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1633787494475">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="566" y="284" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1633787494475" />
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1633787471783">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1633787471783" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1633625434922">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1633625434922" />
-    <state width="1478" height="200" key="GridCell.Tab.0.bottom" timestamp="1633807833246">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1478" height="200" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1633807833246" />
-    <state width="1478" height="200" key="GridCell.Tab.0.center" timestamp="1633807833246">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1478" height="200" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1633807833246" />
-    <state width="1478" height="200" key="GridCell.Tab.0.left" timestamp="1633807833246">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1478" height="200" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1633807833246" />
-    <state width="1478" height="200" key="GridCell.Tab.0.right" timestamp="1633807833246">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1478" height="200" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1633807833246" />
-    <state width="1478" height="249" key="GridCell.Tab.1.bottom" timestamp="1633789158452">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1478" height="249" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1633789158452" />
-    <state width="1478" height="249" key="GridCell.Tab.1.center" timestamp="1633789158452">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1478" height="249" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1633789158452" />
-    <state width="1478" height="249" key="GridCell.Tab.1.left" timestamp="1633789158452">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1478" height="249" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1633789158452" />
-    <state width="1478" height="249" key="GridCell.Tab.1.right" timestamp="1633789158452">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1478" height="249" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1633789158452" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
