@@ -1,6 +1,6 @@
-package Controllers;
+package controllers;
 
-import Controllers.impl.StudentControllerImpl;
+import controllers.impl.StudentControllerImpl;
 
 public class ControllerFactory {
     public enum controllerType{

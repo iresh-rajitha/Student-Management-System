@@ -1,8 +1,8 @@
-package Function;
+package function;
 
-import Controllers.ControllerFactory;
-import Controllers.StudentController;
-import Models.Student;
+import controllers.ControllerFactory;
+import controllers.StudentController;
+import models.Student;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

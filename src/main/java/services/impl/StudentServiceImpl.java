@@ -1,7 +1,7 @@
-package Services.impl;
+package services.impl;
 
-import Models.Student;
-import Services.StudentService;
+import models.Student;
+import services.StudentService;
 
 import java.util.ArrayList;
 import java.util.List;

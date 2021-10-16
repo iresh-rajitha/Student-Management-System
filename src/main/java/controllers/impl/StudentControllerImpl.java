@@ -1,9 +1,9 @@
-package Controllers.impl;
+package controllers.impl;
 
-import Controllers.StudentController;
-import Models.Student;
-import Services.ServiceFactory;
-import Services.StudentService;
+import controllers.StudentController;
+import models.Student;
+import services.ServiceFactory;
+import services.StudentService;
 
 import java.util.List;
 

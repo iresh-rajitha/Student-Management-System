@@ -1,6 +1,6 @@
-package Services;
+package services;
 
-import Services.impl.StudentServiceImpl;
+import services.impl.StudentServiceImpl;
 
 public class ServiceFactory {
 

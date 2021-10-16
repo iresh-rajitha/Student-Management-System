@@ -1,7 +1,5 @@
-import Function.StudentFunction;
-import Models.Student;
+import function.StudentFunction;
 
-import java.util.Date;
 import java.util.Scanner;
 
 public class main {
