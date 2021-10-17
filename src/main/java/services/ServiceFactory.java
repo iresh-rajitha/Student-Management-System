@@ -12,6 +12,7 @@ public class ServiceFactory {
 
     private ServiceFactory(){
     }
+
     public static ServiceFactory getInstance(){
         if ( serviceFactory == null){
             return serviceFactory =  new ServiceFactory();
@@ -21,7 +22,6 @@ public class ServiceFactory {
     public SuperService getService(serviceType type){
         switch (type){
             case STUDENT: return (SuperService) new StudentServiceImpl();
-            //Extend other Services Here
             default:return null;
         }
     }
