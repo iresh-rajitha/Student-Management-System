@@ -1,5 +1,14 @@
 package models;
 
+<<<<<<< HEAD
+public class Class {
+    private int classId;
+    private String className;
+
+    public Class(int classId, String className) {
+        this.classId = classId;
+        this.className = className;
+=======
 import java.util.Date;
 
 public class Class {
@@ -14,6 +23,7 @@ public class Class {
         this.year = year;
         this.className = className;
         TeacherName = teacherName;
+>>>>>>> origin/dp
     }
 
     public int getClassId() {
@@ -24,6 +34,8 @@ public class Class {
         this.classId = classId;
     }
 
+<<<<<<< HEAD
+=======
     public int getYear() {
         return year;
     }
@@ -32,6 +44,7 @@ public class Class {
         this.year = year;
     }
 
+>>>>>>> origin/dp
     public String getClassName() {
         return className;
     }
@@ -39,6 +52,8 @@ public class Class {
     public void setClassName(String className) {
         this.className = className;
     }
+<<<<<<< HEAD
+=======
 
     public String getTeacherName() {
         return TeacherName;
@@ -47,4 +62,5 @@ public class Class {
     public void setTeacherName(String teacherName) {
         TeacherName = teacherName;
     }
+>>>>>>> origin/dp
 }

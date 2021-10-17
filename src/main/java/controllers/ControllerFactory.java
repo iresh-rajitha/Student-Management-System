@@ -1,10 +1,11 @@
 package controllers;
 
+import controllers.impl.ClassControllerImpl;
 import controllers.impl.StudentControllerImpl;
 
 public class ControllerFactory {
     public enum controllerType{
-        STUDENT,ClASS,SESSION,ATTENDANCE;
+        STUDENT,CLASS,SESSION,ATTENDANCE;
     }
     private static ControllerFactory controllerFactory;
     private ControllerFactory(){}
@@ -18,7 +19,7 @@ public class ControllerFactory {
     public SuperController getController(controllerType type){
         switch (type){
             case STUDENT: return (SuperController) new StudentControllerImpl();
-            // Enter other types to here to extend
+            case CLASS: return (SuperController) new ClassControllerImpl();
             default: return null;
         }
     }

@@ -23,7 +23,11 @@ public class ServiceFactory {
     public SuperService getService(serviceType type){
         switch (type){
             case STUDENT: return (SuperService) new StudentServiceImpl();
+<<<<<<< HEAD
+=======
             case CLASS: return (SuperService) new ClassServiceImpl();
+            //Extend other Services Here
+>>>>>>> origin/dp
             default:return null;
         }
     }
