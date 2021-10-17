@@ -6,7 +6,7 @@ import services.impl.StudentServiceImpl;
 public class ServiceFactory {
 
     public enum serviceType{
-        STUDENT,ClASS,SESSION,ATTENDANCE;
+        STUDENT,CLASS,SESSION,ATTENDANCE;
     }
 
     private static ServiceFactory serviceFactory;
@@ -22,7 +22,7 @@ public class ServiceFactory {
     public SuperService getService(serviceType type){
         switch (type){
             case STUDENT: return (SuperService) new StudentServiceImpl();
-            case ClASS: return (SuperService) new ClassServiceImpl();
+            case CLASS: return (SuperService) new ClassServiceImpl();
             //Extend other Services Here
             default:return null;
         }

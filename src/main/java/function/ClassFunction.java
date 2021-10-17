@@ -3,11 +3,7 @@ package function;
 import controllers.ControllerFactory;
 import controllers.ClassController;
 import models.Class;
-import models.Class;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.List;
 import java.util.Scanner;
 
@@ -16,7 +12,7 @@ public class ClassFunction {
     private ClassController classController;
 
     public ClassFunction(){
-        classController =  (ClassController) ControllerFactory.getInstance().getController(ControllerFactory.controllerType.ClASS);
+        classController =  (ClassController) ControllerFactory.getInstance().getController(ControllerFactory.controllerType.CLASS);
     }
 
     public void classConsole(Scanner scanner){

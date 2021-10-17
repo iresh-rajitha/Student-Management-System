@@ -11,7 +11,7 @@ public class ClassControllerImpl implements ClassController {
     private ClassService classService;
 
     public ClassControllerImpl() {
-        classService= (ClassService)ServiceFactory.getInstance().getService(ServiceFactory.serviceType.ClASS);
+        classService= (ClassService)ServiceFactory.getInstance().getService(ServiceFactory.serviceType.CLASS);
     }
 
     @Override
