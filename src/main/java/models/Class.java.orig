@@ -1,0 +1,66 @@
+package models;
+
+<<<<<<< HEAD
+public class Class {
+    private int classId;
+    private String className;
+
+    public Class(int classId, String className) {
+        this.classId = classId;
+        this.className = className;
+=======
+import java.util.Date;
+
+public class Class {
+    private int classId;
+    private int year;
+    private String className;
+    private String TeacherName;
+
+    public Class(){}
+    public Class(int classId, int year, String className, String teacherName) {
+        this.classId = classId;
+        this.year = year;
+        this.className = className;
+        TeacherName = teacherName;
+>>>>>>> origin/dp
+    }
+
+    public int getClassId() {
+        return classId;
+    }
+
+    public void setClassId(int classId) {
+        this.classId = classId;
+    }
+
+<<<<<<< HEAD
+=======
+    public int getYear() {
+        return year;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
+    }
+
+>>>>>>> origin/dp
+    public String getClassName() {
+        return className;
+    }
+
+    public void setClassName(String className) {
+        this.className = className;
+    }
+<<<<<<< HEAD
+=======
+
+    public String getTeacherName() {
+        return TeacherName;
+    }
+
+    public void setTeacherName(String teacherName) {
+        TeacherName = teacherName;
+    }
+>>>>>>> origin/dp
+}
