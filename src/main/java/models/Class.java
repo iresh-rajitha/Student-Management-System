@@ -1,19 +1,24 @@
 package models;
 
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 public class Class implements SuperModel{
     private int classId;
     private int year;
     private String className;
     private String TeacherName;
+    private List<Integer> enrolledStudents = new ArrayList<>();
 
     public Class(){}
-    public Class(int classId, int year, String className, String teacherName) {
+
+    public Class(int classId, int year, String className, String teacherName, List<Integer> enrolledStudents) {
         this.classId = classId;
         this.year = year;
         this.className = className;
         TeacherName = teacherName;
+        this.enrolledStudents = enrolledStudents;
     }
 
     public int getClassId() {
@@ -46,5 +51,13 @@ public class Class implements SuperModel{
 
     public void setTeacherName(String teacherName) {
         TeacherName = teacherName;
+    }
+
+    public List<Integer> getEnrolledStudents() {
+        return enrolledStudents;
+    }
+
+    public void setEnrolledStudents(int newStudent) {
+        this.enrolledStudents.add(newStudent);
     }
 }

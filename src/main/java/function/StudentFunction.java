@@ -22,14 +22,22 @@ public class StudentFunction {
     public void studentConsole(Scanner scanner){
         int input = 0 ;
         do{
-            System.out.println("0 - Exit");
-            System.out.println("1 - Add Student");
-            System.out.println("2 - Update Student");
-            System.out.println("3 - Delete Student");
-            System.out.println("4 - Get Student by id");
-            System.out.println("5 - Get All Student");
+            System.out.println("=======================================================");
+            System.out.println("1 - Student");
+            System.out.println("=======================================================");
+            System.out.println("    0 - Exit");
+            System.out.println("    1 - Add Student");
+            System.out.println("    2 - Update Student");
+            System.out.println("    3 - Delete Student");
+            System.out.println("    4 - Get Student by id");
+            System.out.println("    5 - Get All Student");
             System.out.print("Your choice:");
-            input = Integer.parseInt(scanner.nextLine());
+
+            try {
+                input = Integer.parseInt(scanner.nextLine());
+            } catch (Exception e) {
+                System.out.println("--------------------Invalid Input----------------------");
+            }
 
             switch (input){
                 case 1: addStudent(scanner); break;
@@ -46,28 +54,33 @@ public class StudentFunction {
         return true;
     }
     public void getOneStudent(Scanner scanner){
-        System.out.print("ID :");
-        int studentId= Integer.parseInt(scanner.nextLine());
-        Student student=studentController.getOne(studentId);
-        if ((student != null)){
-            System.out.println("Student ID:"+ student.getId());
-            System.out.println("Student Name:"+ student.getName());
-            System.out.println("Student Date of Birth:"+ student.getDob());
-            System.out.println("Student Joined date:"+ student.getJoinedDate());
-        }else{
-            System.out.println("Invalid ID");
+        System.out.print("  ID :");
+
+        try {
+            int studentId= Integer.parseInt(scanner.nextLine());
+            Student student=studentController.getOne(studentId);
+            if ((student != null)){
+                System.out.println("    Student ID             :"+ student.getId());
+                System.out.println("    Student Name           :"+ student.getName());
+                System.out.println("    Student Date of Birth  :"+ student.getDob());
+                System.out.println("    Student Joined date    :"+ student.getJoinedDate());
+            }else{
+                System.out.println("--------------------Invalid Input----------------------");
+            }
+        } catch (Exception e) {
+            System.out.println("--------------------Invalid Input----------------------");
         }
     }
     public void getAllStudents(){
         List<Student> students= studentController.getAll();
-        System.out.println("=============================================");
+        System.out.println("=======================================================");
         if (students.size()>0){
             for (Student student : students){
-                System.out.println("Student ID:"+ student.getId());
-                System.out.println("Student Name:"+ student.getName());
-                System.out.println("Student Date of Birth:"+ student.getDob());
-                System.out.println("Student Joined date:"+ student.getJoinedDate());
-                System.out.println("=============================================");
+                System.out.println("    Student ID             :"+ student.getId());
+                System.out.println("    Student Name           :"+ student.getName());
+                System.out.println("    Student Date of Birth  :"+ student.getDob());
+                System.out.println("    Student Joined date    :"+ student.getJoinedDate());
+                System.out.println("=======================================================");
             }
         }else{
             System.out.println("Student list is empty");
@@ -82,38 +95,53 @@ public class StudentFunction {
         }
         student.setId(id);
 
-        System.out.print("Name : ");
-        student.setName(scanner.nextLine());
-
-        int year=0,month=0,day=0;
-
-        System.out.println("Date of birth:");
-        System.out.print("Year : ");
-        year = Integer.parseInt(scanner.nextLine());
-        System.out.print("Month : ");
-        month = Integer.parseInt(scanner.nextLine());
-        System.out.print("Day : ");
-        day = Integer.parseInt(scanner.nextLine());
-        String dob = day +"-"+month+"-"+year;
-        SimpleDateFormat formatter = new SimpleDateFormat("dd-MM-yyyy");
         try {
-            Date date = formatter.parse(dob);
-            student.setDob(date);
-        } catch (ParseException e) {
-            e.printStackTrace();
+            System.out.print("  Name : ");
+            student.setName(scanner.nextLine());
+
+            int year=0,month=0,day=0;
+
+            System.out.println("    Date of birth:");
+            System.out.print("      Year : ");
+            year = Integer.parseInt(scanner.nextLine());
+            System.out.print("      Month : ");
+            month = Integer.parseInt(scanner.nextLine());
+            System.out.print("      Day : ");
+            day = Integer.parseInt(scanner.nextLine());
+            String dob = day +"-"+month+"-"+year;
+            SimpleDateFormat formatter = new SimpleDateFormat("dd-MM-yyyy");
+            try {
+                Date date = formatter.parse(dob);
+                student.setDob(date);
+            } catch (ParseException e) {
+                e.printStackTrace();
+            }
+            student.setJoinedDate(new Date());
+        } catch (Exception e) {
+            System.out.println("--------------------Invalid Input----------------------");
         }
-        student.setJoinedDate(new Date());
+
+
         return student;
     }
     public void updateStudent(Scanner scanner){
-        System.out.print(" student ID :");
-        int studentId= Integer.parseInt(scanner.nextLine());
-        studentController.update(getStudentDetails(scanner,studentId));
+        System.out.print("  student ID :");
 
+        try {
+            int studentId= Integer.parseInt(scanner.nextLine());
+            studentController.update(getStudentDetails(scanner,studentId));
+        } catch (Exception e) {
+            System.out.println("--------------------Invalid Input----------------------");
+        }
     }
     public void deleteStudent(Scanner scanner){
-        System.out.print(" student ID :");
-        int studentId= Integer.parseInt(scanner.nextLine());
-        studentController.delete(studentId);
+        System.out.print("  student ID :");
+
+        try {
+            int studentId= Integer.parseInt(scanner.nextLine());
+            studentController.delete(studentId);
+        } catch (Exception e) {
+            System.out.println("--------------------Invalid Input----------------------");
+        }
     }
 }

@@ -7,16 +7,28 @@ public class main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int input = 0;
+        System.out.println("=======================================================");
+        System.out.println("               Student Management System");
+        System.out.println("=======================================================");
+        System.out.println("     Herath H.M.D.P.M       |      Madhushan G.G.N");
+        System.out.println("     Rohana D.M.G           |      Kalhara H.K.I.R");
+        System.out.println("=======================================================");
         System.out.println("Begin Code Here");
         do{
-
             System.out.println("0 - Exit");
             System.out.println("1 - Student");
             System.out.println("2 - Class");
             System.out.println("3 - Session");
             System.out.println("4 - Attendance");
             System.out.print("Your choice:");
-            input = Integer.parseInt(scan.nextLine());
+
+
+            try {
+                input = Integer.parseInt(scan.nextLine());
+            } catch (Exception e) {
+                System.out.println("--------------------Invalid Input----------------------");
+            }
+
             if (1 == input){
                 StudentFunction studentFunction = new StudentFunction();
                 studentFunction.studentConsole(scan);

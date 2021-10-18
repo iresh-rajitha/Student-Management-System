@@ -2,6 +2,7 @@ package function;
 
 import controllers.ControllerFactory;
 import controllers.ClassController;
+import controllers.StudentController;
 import models.Class;
 
 import java.util.List;
@@ -18,14 +19,22 @@ public class ClassFunction {
     public void classConsole(Scanner scanner){
         int input = 0 ;
         do{
-            System.out.println("0 - Exit");
-            System.out.println("1 - Add Class");
-            System.out.println("2 - Update Class");
-            System.out.println("3 - Delete Class");
-            System.out.println("4 - Get Class by classId");
-            System.out.println("5 - Get All Class");
+            System.out.println("=======================================================");
+            System.out.println("2 - Class");
+            System.out.println("=======================================================");
+            System.out.println("    0 - Exit");
+            System.out.println("    1 - Add Class");
+            System.out.println("    2 - Update Class");
+            System.out.println("    3 - Delete Class");
+            System.out.println("    4 - Get Class by classId");
+            System.out.println("    5 - Get All Class");
             System.out.print("Your choice:");
-            input = Integer.parseInt(scanner.nextLine());
+
+            try {
+                input = Integer.parseInt(scanner.nextLine());
+            } catch (Exception e) {
+                System.out.println("--------------------Invalid Input----------------------");
+            }
 
             switch (input){
                 case 1: addClass(scanner); break;
@@ -43,27 +52,34 @@ public class ClassFunction {
     }
     public void getOneClass(Scanner scanner){
         System.out.print("ID :");
-        int classId= Integer.parseInt(scanner.nextLine());
-        Class cls=classController.getOne(classId);
-        if ((cls != null)){
-            System.out.println("Class ID:"+ cls.getClassId());
-            System.out.println("Class Name:"+ cls.getClassName());
-            System.out.println("Class Teacher Name:"+ cls.getTeacherName());
-            System.out.println("Class Year:"+ cls.getYear());
-        }else{
-            System.out.println("Invalid ID");
+
+        try {
+            int classId= Integer.parseInt(scanner.nextLine());
+            Class cls=classController.getOne(classId);
+            if ((cls != null)){
+                System.out.println("    Class ID       :"+ cls.getClassId());
+                System.out.println("    Class Name     :"+ cls.getClassName());
+                System.out.println("    Class Teacher  :"+ cls.getTeacherName());
+                System.out.println("    Class Year     :"+ cls.getYear());
+                System.out.println("    Class Students :" + cls.getEnrolledStudents());
+            }else{
+                System.out.println("--------------------Invalid Input----------------------");
+            }
+        } catch (Exception e) {
+            System.out.println("--------------------Invalid Input----------------------");
         }
     }
     public void getAllClasss(){
         List<Class> classes= classController.getAll();
-        System.out.println("=============================================");
+        System.out.println("=======================================================");
         if (classes.size()>0){
             for (Class cls : classes){
-                System.out.println("Class ID:"+ cls.getClassId());
-                System.out.println("Class Name:"+ cls.getClassName());
-                System.out.println("Class Teacher Name:"+ cls.getTeacherName());
-                System.out.println("Class Year:"+ cls.getYear());
-                System.out.println("=============================================");
+                System.out.println("    Class ID       :"+ cls.getClassId());
+                System.out.println("    Class Name     :"+ cls.getClassName());
+                System.out.println("    Class Teacher  :"+ cls.getTeacherName());
+                System.out.println("    Class Year     :"+ cls.getYear());
+                System.out.println("    Class Students :" + cls.getEnrolledStudents());
+                System.out.println("=======================================================");
             }
         }else{
             System.out.println("Class list is empty");
@@ -71,6 +87,8 @@ public class ClassFunction {
     }
     public Class getClassDetails(Scanner scanner, int classId){
         Class cls =  new Class();
+        String command;
+        boolean studentsAdded = false;
 
 //        System.out.print("ID :");
         if (classId == 0){
@@ -78,26 +96,51 @@ public class ClassFunction {
         }
         cls.setClassId(classId);
 
-        System.out.print("Class Name : ");
-        cls.setClassName(scanner.nextLine());
+        try {
+            System.out.print("  Class Name : ");
+            cls.setClassName(scanner.nextLine());
 
-        System.out.print("Class Teacher Name : ");
-        cls.setTeacherName(scanner.nextLine());
+            System.out.print("  Class Teacher Name : ");
+            cls.setTeacherName(scanner.nextLine());
 
-        System.out.print("Year : ");
-        cls.setYear(Integer.parseInt(scanner.nextLine()));
+            System.out.print("  Year : ");
+            cls.setYear(Integer.parseInt(scanner.nextLine()));
+
+            while (!studentsAdded) {
+                System.out.print("  Press 'A' to add students to the class or 'F' to finish class setup: ");
+                command = scanner.nextLine();
+
+                if(command.equals("A")) {
+                    System.out.print("      Enter student id: ");
+                    cls.setEnrolledStudents(Integer.parseInt(scanner.nextLine()));
+                } else if (command.equals("F")) {
+                    studentsAdded = true;
+                }
+            }
+        } catch (Exception e) {
+            System.out.println("--------------------Invalid Input----------------------");
+        }
 
         return cls;
     }
     public void updateClass(Scanner scanner){
-        System.out.print(" class ID :");
-        int classId= Integer.parseInt(scanner.nextLine());
-        classController.update(getClassDetails(scanner,classId));
+        System.out.print("  class ID :");
 
+        try {
+            int classId= Integer.parseInt(scanner.nextLine());
+            classController.update(getClassDetails(scanner, classId));
+        } catch (Exception e) {
+            System.out.println("--------------------Invalid Input----------------------");
+        }
     }
     public void deleteClass(Scanner scanner){
         System.out.print(" class ID :");
-        int classId= Integer.parseInt(scanner.nextLine());
-        classController.delete(classId);
+
+        try {
+            int classId= Integer.parseInt(scanner.nextLine());
+            classController.delete(classId);
+        } catch (Exception e) {
+            System.out.println("--------------------Invalid Input----------------------");
+        }
     }
 }
