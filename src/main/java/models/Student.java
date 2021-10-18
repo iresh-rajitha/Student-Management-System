@@ -2,7 +2,7 @@ package models;
 
 import java.util.Date;
 
-public class Student {
+public class Student implements SuperModel {
     private int id;
     private String name;
     private Date dob;

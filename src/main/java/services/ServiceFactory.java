@@ -8,7 +8,6 @@ public class ServiceFactory {
     public enum serviceType{
         STUDENT,CLASS,SESSION,ATTENDANCE;
     }
-
     private static ServiceFactory serviceFactory;
 
     private ServiceFactory(){

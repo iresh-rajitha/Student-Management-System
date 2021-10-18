@@ -1,6 +1,7 @@
 package services.impl;
 
 import models.Student;
+import models.SuperModel;
 import services.StudentService;
 
 import java.util.ArrayList;
