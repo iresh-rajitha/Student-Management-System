@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="677ea606-8d25-466c-abf4-3c4c83743925" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/ClassController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/ClassController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/SuperController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/SuperController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/function/StudentFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/function/StudentFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Class.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Class.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/ClassService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/ClassService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/ServiceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/ServiceFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/StudentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/SuperService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/SuperService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/impl/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/impl/StudentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Services/ServiceFactory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Services/ServiceFactory$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Services/ServiceFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Services/ServiceFactory.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +33,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
