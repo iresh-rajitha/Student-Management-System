@@ -23,6 +23,7 @@ public class ServiceFactory {
         switch (type){
             case STUDENT: return (SuperService) new StudentServiceImpl();
             case CLASS: return (SuperService) new ClassServiceImpl();
+            case SESSION:return (SuperService) new StudentServiceImpl();
             default:return null;
         }
     }

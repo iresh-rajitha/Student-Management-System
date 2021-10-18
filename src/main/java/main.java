@@ -1,4 +1,5 @@
 import function.ClassFunction;
+import function.SessionFunction;
 import function.StudentFunction;
 
 import java.util.Scanner;
@@ -23,6 +24,10 @@ public class main {
             } else if (2 == input) {
                 ClassFunction classFunction = new ClassFunction();
                 classFunction.classConsole(scan);
+            }
+            else if (3 == input) {
+                SessionFunction sessionFunction = new SessionFunction();
+                sessionFunction.sessionConsole(scan);
             }
         }while(0 != input);
         scan.close();

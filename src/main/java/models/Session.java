@@ -1,17 +1,18 @@
 package models;
 
 import java.time.LocalDateTime;
+import java.util.Date;
 
 public class Session implements SuperModel{
     private int id;
     private Class cls;
-    private LocalDateTime startTime;
-    private LocalDateTime endTime;
+    private Date startTime;
+    private Date endTime;
 
     public Session() {
     }
 
-    public Session(int id, Class cls, LocalDateTime startTime, LocalDateTime endTime) {
+    public Session(int id, Class cls, Date startTime, Date endTime) {
         this.id = id;
         this.cls = cls;
         this.startTime = startTime;
@@ -34,19 +35,19 @@ public class Session implements SuperModel{
         this.cls = cls;
     }
 
-    public LocalDateTime getStartTime() {
+    public Date getStartTime() {
         return startTime;
     }
 
-    public void setStartTime(LocalDateTime startTime) {
+    public void setStartTime(Date startTime) {
         this.startTime = startTime;
     }
 
-    public LocalDateTime getEndTime() {
+    public Date getEndTime() {
         return endTime;
     }
 
-    public void setEndTime(LocalDateTime endTime) {
+    public void setEndTime(Date endTime) {
         this.endTime = endTime;
     }
 }
