@@ -5,18 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="677ea606-8d25-466c-abf4-3c4c83743925" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/memory/ClassMemoryStore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/function/ClassFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/function/ClassFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/function/StudentFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/function/StudentFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/memory/Student.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/memory/Student.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/memory/Class.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/memory/Class.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/models/Class.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Class.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/impl/ClassServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/impl/ClassServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Function/StudentFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Function/StudentFunction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Student Management.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/models/Class.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/models/Class.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Models/Class.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Models/Class.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,6 +133,7 @@
       <workItem from="1634539548800" duration="1934000" />
       <workItem from="1634581453644" duration="21435000" />
       <workItem from="1634619253234" duration="5499000" />
+      <workItem from="1634625527668" duration="3583000" />
     </task>
     <servers />
   </component>
@@ -157,6 +150,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
