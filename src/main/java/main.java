@@ -19,14 +19,15 @@ public class main {
         System.out.println("     Herath H.M.D.P.M       |      Madhushan G.G.N");
         System.out.println("     Rohana D.M.G           |      Kalhara H.K.I.R");
         System.out.println("=======================================================");
-        System.out.println("Begin Code Here");
+        System.out.println("Enter a number to get started!");
         do{
-
+            System.out.println("=======================================================");
             System.out.println("0 - Exit");
             System.out.println("1 - Student");
             System.out.println("2 - Class");
             System.out.println("3 - Session");
             System.out.println("4 - Attendance");
+            System.out.println("=======================================================");
             System.out.print("Your choice:");
 
             try {

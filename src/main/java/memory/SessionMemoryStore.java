@@ -27,7 +27,7 @@ public class SessionMemoryStore {
             for (int i=0;i< jsonArray.length();i++){
                 readList.add(new Session(jsonArray.getJSONObject(i)));
             }
-        } catch (JSONException | ParseException e) {
+        } catch (Exception e) {
             System.out.println("List is Empty");
             e.printStackTrace();
         }

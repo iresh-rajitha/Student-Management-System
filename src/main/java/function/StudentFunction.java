@@ -27,12 +27,16 @@ public class StudentFunction {
     public void studentConsole(Scanner scanner){
         int input = 0 ;
         do{
-            System.out.println("0 - Exit");
-            System.out.println("1 - Add Student");
-            System.out.println("2 - Update Student");
-            System.out.println("3 - Delete Student");
-            System.out.println("4 - Get Student by id");
-            System.out.println("5 - Get All Student");
+            System.out.println("=======================================================");
+            System.out.println("1 - STUDENT");
+            System.out.println("=======================================================");
+            System.out.println("    0 - Exit");
+            System.out.println("    1 - Add Student");
+            System.out.println("    2 - Update Student");
+            System.out.println("    3 - Delete Student");
+            System.out.println("    4 - Get Student by id");
+            System.out.println("    5 - Get All StudentS");
+            System.out.println("=======================================================");
             System.out.print("Your choice:");
 
             try {

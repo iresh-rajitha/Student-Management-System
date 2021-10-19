@@ -2,7 +2,9 @@ package function;
 
 import controllers.ControllerFactory;
 import controllers.ClassController;
+import controllers.StudentController;
 import models.Class;
+import models.Student;
 
 import java.util.List;
 import java.util.Scanner;
@@ -10,20 +12,26 @@ import java.util.Scanner;
 public class ClassFunction {
 
     private ClassController classController;
+    private StudentController studentController;
 
     public ClassFunction(){
         classController =  (ClassController) ControllerFactory.getInstance().getController(ControllerFactory.controllerType.CLASS);
+        studentController =  (StudentController) ControllerFactory.getInstance().getController(ControllerFactory.controllerType.STUDENT);
     }
 
     public void classConsole(Scanner scanner){
         int input = 0 ;
         do{
-            System.out.println("0 - Exit");
-            System.out.println("1 - Add Class");
-            System.out.println("2 - Update Class");
-            System.out.println("3 - Delete Class");
-            System.out.println("4 - Get Class by classId");
-            System.out.println("5 - Get All Class");
+            System.out.println("=======================================================");
+            System.out.println("2 - CLASS");
+            System.out.println("=======================================================");
+            System.out.println("    0 - Exit");
+            System.out.println("    1 - Add Class");
+            System.out.println("    2 - Update Class");
+            System.out.println("    3 - Delete Class");
+            System.out.println("    4 - Get Class by classId");
+            System.out.println("    5 - Get All Class");
+            System.out.println("=======================================================");
             System.out.print("Your choice:");
             input = Integer.parseInt(scanner.nextLine());
 
@@ -103,7 +111,15 @@ public class ClassFunction {
 
                 if(command.equals("A")) {
                     System.out.print("      Enter student id: ");
-                    cls.setEnrolledStudents(Integer.parseInt(scanner.nextLine()));
+                    int StudentId = Integer.parseInt(scanner.nextLine());
+
+                    try {
+                        Student student = studentController.getOne(StudentId);
+                        cls.setEnrolledStudents(StudentId);
+                    } catch (Exception e) {
+                        System.out.println("--------------------Invalid Student ID-------------------");
+                    }
+
                 } else if (command.equals("F")) {
                     studentsAdded = true;
                 }

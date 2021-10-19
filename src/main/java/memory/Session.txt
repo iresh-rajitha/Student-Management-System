@@ -1,0 +1,1 @@
+[{id:1, cls:{classId:1, className:'kdlkfj', teacherName:'lskdjlf', year: '324', enrolledStudents: [1]}, startTime:'Sat Sep 21 12:12:00 IST 2013', endTime: 'Sat Sep 21 12:12:00 IST 2013'}]
