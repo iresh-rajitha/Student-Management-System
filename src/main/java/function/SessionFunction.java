@@ -103,7 +103,6 @@ public class SessionFunction {
         Session session=sessionController.getOne(sessionId);
         if ((session != null)){
             System.out.println("Session ID:"+ session.getId());
-            System.out.println("Session date:"+ session.getStartTime());
             System.out.println("Session start time:"+ session.getStartTime());
             System.out.println("Session end time:"+ session.getEndTime());
             System.out.println("Class:"+ session.getCls().getClassName());
@@ -117,7 +116,6 @@ public class SessionFunction {
         if (sessions.size()>0){
             for (Session session : sessions){
                 System.out.println("Session ID:"+ session.getId());
-                System.out.println("Session date:"+ session.getStartTime());
                 System.out.println("Session start time:"+ session.getStartTime());
                 System.out.println("Session end time:"+ session.getEndTime());
                 System.out.println("Class:"+ session.getCls().getClassName());
