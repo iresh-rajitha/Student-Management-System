@@ -16,7 +16,12 @@ public class StudentFunction {
     private StudentController studentController;
 
     public StudentFunction(){
+//        new ServiceFactory();
+
         studentController=  (StudentController) ControllerFactory.getInstance().getController(ControllerFactory.controllerType.STUDENT);
+    }
+    public StudentFunction(ControllerFactory controllerFactory){
+        studentController= (StudentController)controllerFactory.getController(ControllerFactory.controllerType.STUDENT);
     }
 
     public void studentConsole(Scanner scanner){

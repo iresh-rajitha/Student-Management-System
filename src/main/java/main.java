@@ -1,3 +1,5 @@
+import controllers.ControllerFactory;
+import controllers.StudentController;
 import function.ClassFunction;
 import function.StudentFunction;
 
@@ -5,6 +7,9 @@ import java.util.Scanner;
 
 public class main {
     public static void main(String[] args) {
+        ControllerFactory controllerFactory = ControllerFactory.getInstance();
+
+
         Scanner scan = new Scanner(System.in);
         int input = 0;
         System.out.println("Begin Code Here");
@@ -18,7 +23,7 @@ public class main {
             System.out.print("Your choice:");
             input = Integer.parseInt(scan.nextLine());
             if (1 == input){
-                StudentFunction studentFunction = new StudentFunction();
+                StudentFunction studentFunction = new StudentFunction(controllerFactory);
                 studentFunction.studentConsole(scan);
             } else if (2 == input) {
                 ClassFunction classFunction = new ClassFunction();
@@ -26,5 +31,6 @@ public class main {
             }
         }while(0 != input);
         scan.close();
+//        new StudentFunction(controllerFactory).getAllStudents();
     }
 }
