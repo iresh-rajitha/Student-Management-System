@@ -16,7 +16,11 @@
 //public class MemoryTest {
 //    public static void main(String[] args) throws IOException, ParseException {
 //
+<<<<<<< HEAD
+//        List<Student> students= new ArrayList<>();
+=======
         /*
+>>>>>>> gihan
 //        for (int i=0 ; i<5;i++){
 //            Student student= new Student(1,"iresh",new Date(),new Date());
 //            students.add(student);
@@ -26,6 +30,14 @@
 //        studentMemoryStore.write(students);
 ////        ReadFile
 //        System.out.println(studentMemoryStore.read().toString());;
+<<<<<<< HEAD
+//    }
+//}
+//
+=======
         System.out.println(studentMemoryStore.read().toString());
         */
-//
+
+
+
+>>>>>>> gihan

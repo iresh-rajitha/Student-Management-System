@@ -22,8 +22,11 @@ public class ControllerFactory {
         switch (type){
             case STUDENT: return (SuperController) new StudentControllerImpl();
             case CLASS: return (SuperController) new ClassControllerImpl();
+<<<<<<< HEAD
             case SESSION: return (SuperController) new SessionControllerImpl();
+=======
             case ATTENDANCE: return (SuperController) new AttendanceControllerImpl();
+>>>>>>> gihan
             default: return null;
         }
     }

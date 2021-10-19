@@ -22,7 +22,7 @@ public class Session implements SuperModel{
         this.startTime = startTime;
         this.endTime = endTime;
     }
-    public Session(JSONObject explrObject) throws ParseException {
+    public Session(JSONObject explrObject)  {
         SimpleDateFormat formatter = new SimpleDateFormat("E MMM dd HH:mm:ss Z yyyy");
         this.id = explrObject.getInt("id");
         this.cls = new Class(explrObject.getJSONObject("cls"));
