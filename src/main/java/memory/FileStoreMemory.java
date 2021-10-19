@@ -14,15 +14,7 @@ public class FileStoreMemory {
     public boolean writeFile(String data, file type){
         File file = new File("");
 //        System.out.println(file.getAbsolutePath()+"\\src\\main\\java\\memory\\filename.txt");
-
-        String fileName = "Student";
-        switch (type){
-            case STUDENT: fileName="Student";break;
-            case CLASS: fileName="Class";break;
-            case SESSION: fileName="Session";break;
-            case ATTENDANCE: fileName="Attendance";break;
-        }
-
+        String fileName = getFileName(type);;
 
         try {
             FileWriter myWriter = new FileWriter(file.getAbsolutePath()+"\\src\\main\\java\\memory\\"+fileName+".txt");
@@ -37,13 +29,7 @@ public class FileStoreMemory {
         }
     }
     public String readFile(file type){
-        String fileName = "Student";
-        switch (type){
-            case STUDENT: fileName="Student";break;
-            case CLASS: fileName="Class";break;
-            case SESSION: fileName="Session";break;
-            case ATTENDANCE: fileName="Attendance";break;
-        }
+        String fileName= getFileName(type);
         File file = new File("");
         File myObj = new File(file.getAbsolutePath()+"\\src\\main\\java\\memory\\"+fileName+".txt");
 
@@ -62,5 +48,15 @@ public class FileStoreMemory {
         myReader.close();
 
         return full.toString();
+    }
+    private String getFileName(file type) {
+        String fileName = "Student";
+        switch (type){
+            case STUDENT: fileName="Student";break;
+            case CLASS: fileName="Class";break;
+            case SESSION: fileName="Session";break;
+            case ATTENDANCE: fileName="Attendance";break;
+        }
+        return  fileName;
     }
 }

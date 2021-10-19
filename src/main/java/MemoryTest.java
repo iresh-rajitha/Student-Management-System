@@ -16,6 +16,7 @@ import java.util.stream.Collectors;
 public class MemoryTest {
     public static void main(String[] args) throws IOException, ParseException {
 
+        /*
         List<Student> students= new ArrayList<>();
         for (int i=0 ; i<5;i++){
             Student student= new Student(1,"iresh",new Date(),new Date());
@@ -25,7 +26,11 @@ public class MemoryTest {
 //        Write File
         studentMemoryStore.write(students);
 //        ReadFile
-        System.out.println(studentMemoryStore.read().toString());;
+        System.out.println(studentMemoryStore.read().toString());
+        */
+
+
     }
+
 }
 
