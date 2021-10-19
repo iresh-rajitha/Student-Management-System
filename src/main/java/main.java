@@ -1,5 +1,6 @@
 import controllers.ControllerFactory;
 import controllers.StudentController;
+import function.AttendanceFunction;
 import function.ClassFunction;
 import function.StudentFunction;
 
@@ -28,6 +29,9 @@ public class main {
             } else if (2 == input) {
                 ClassFunction classFunction = new ClassFunction();
                 classFunction.classConsole(scan);
+            }else if( 4 == input){
+                AttendanceFunction attendanceFunction =  new AttendanceFunction();
+                attendanceFunction.attendanceConsole(scan);
             }
         }while(0 != input);
         scan.close();
