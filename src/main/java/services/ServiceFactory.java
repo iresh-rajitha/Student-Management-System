@@ -1,5 +1,6 @@
 package services;
 
+import services.impl.AttendanceServiceImpl;
 import services.impl.ClassServiceImpl;
 import services.impl.StudentServiceImpl;
 
@@ -27,6 +28,8 @@ public class ServiceFactory {
         switch (type){
             case STUDENT: return (SuperService) new StudentServiceImpl();
             case CLASS: return (SuperService) new ClassServiceImpl();
+            case ATTENDANCE: return (SuperService) new AttendanceServiceImpl();
+
             default:return null;
         }
     }

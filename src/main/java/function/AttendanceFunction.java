@@ -16,11 +16,10 @@ public class AttendanceFunction {
     private SessionService sessionService;
 
     public AttendanceFunction(){
-        attendanceController=  (AttendanceController) ControllerFactory.getInstance().getController(ControllerFactory.controllerType.STUDENT);
-        sessionService= (SessionService) ServiceFactory.getInstance().getService(ServiceFactory.serviceType.SESSION);
+        attendanceController=  (AttendanceController) ControllerFactory.getInstance().getController(ControllerFactory.controllerType.ATTENDANCE);
     }
 
-    public void studentConsole(Scanner scanner){
+    public void attendanceConsole(Scanner scanner){
         int input = 0 ;
         do{
             System.out.println("0 - Exit");
@@ -31,7 +30,6 @@ public class AttendanceFunction {
 
             switch (input){
                 case 1: addAttendance(scanner); break;
-
             }
         }while (input != 0);
         System.out.println("Exit From Attendance");
@@ -48,7 +46,7 @@ public class AttendanceFunction {
             id=attendanceController.generateID();
         }
         attendance.setId(id);
-        System.out.print("Session Id");
+        System.out.print("Session Id : ");
         session=sessionService.getOne(Integer.parseInt(scanner.nextLine()));
         //students=session.getCls().
         return null;
