@@ -2,6 +2,7 @@ package models;
 
 import org.json.JSONObject;
 
+import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -20,10 +21,14 @@ public class Attendance implements SuperModel {
 
     public Attendance(){
     }
-    public Attendance(JSONObject explrObject){
+    public Attendance(JSONObject explrObject) {
         this.id = explrObject.getInt("id");
-        JSONObject jsonObject= explrObject.getJSONObject("session");
-//        this.session= new Session(jsonObject.getInt());
+        this.session = new Session(explrObject.getJSONObject("session"));
+        List<Student> students = new ArrayList<>();
+        for (int i=0 ; i < explrObject.getJSONArray("students").length(); i++ ){
+            students.add(new Student(explrObject.getJSONArray("students").getJSONObject(i)));
+        }
+        this.students = students;
     }
 
     public Attendance(int id, Session session) {

@@ -10,8 +10,5 @@
         <module name="Student-Management-System" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Student Management" target="8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
