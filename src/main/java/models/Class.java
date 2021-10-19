@@ -6,7 +6,6 @@ import org.json.JSONObject;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 public class Class implements SuperModel{
@@ -32,6 +31,13 @@ public class Class implements SuperModel{
         this.year = explrObject.getInt("year");
         this.className = explrObject.getString("className");
         this.teacherName = explrObject.getString("teacherName");
+        List<Integer> readIds = new ArrayList<>();
+        for (int i = 0; i < explrObject.getJSONArray("enrolledStudents").length(); i++) {
+            readIds.add(Integer.parseInt(explrObject.getJSONArray("enrolledStudents").get(i).toString()));
+        }
+        this.enrolledStudents = readIds;
+
+
 //        this.enrolledStudents.add((Integer) explrObject.get("enrolledStudents"));
     }
 
@@ -82,7 +88,7 @@ public class Class implements SuperModel{
                 ", className:'" + className + '\'' +
                 ", teacherName:'" + teacherName +'\'' +
                 ", year: '" + year +'\'' +
-                ", enrolledStudents: '" + enrolledStudents +'\'' +
+                ", enrolledStudents: " + enrolledStudents +"" +
                 "}";
     }
 

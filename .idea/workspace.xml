@@ -5,18 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="677ea606-8d25-466c-abf4-3c4c83743925" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/memory/ClassMemoryStore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/function/ClassFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/function/ClassFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/function/StudentFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/function/StudentFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/memory/Student.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/memory/Student.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/models/Class.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Class.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/impl/ClassServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/impl/ClassServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Function/StudentFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Function/StudentFunction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Student Management.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/models/Class.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/models/Class.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/services/StudentServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/services/StudentServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Models/Class.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Models/Class.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +111,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -152,7 +144,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -160,5 +154,35 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="746" height="166" key="GridCell.Tab.0.bottom" timestamp="1634630020515">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="166" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1634630020515" />
+    <state width="746" height="166" key="GridCell.Tab.0.center" timestamp="1634630020515">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="166" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1634630020515" />
+    <state width="746" height="166" key="GridCell.Tab.0.left" timestamp="1634630020515">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="166" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1634630020515" />
+    <state width="746" height="166" key="GridCell.Tab.0.right" timestamp="1634630020515">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="166" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1634630020515" />
+    <state x="481" y="128" key="MultipleFileMergeDialog" timestamp="1634629984786">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="481" y="128" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1634629984786" />
+    <state x="586" y="235" key="VCS.ChangeListViewerDialog" timestamp="1634629724166">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="586" y="235" key="VCS.ChangeListViewerDialog/0.0.1536.824@0.0.1536.824" timestamp="1634629724166" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1634629972090">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1634629972090" />
   </component>
 </project>

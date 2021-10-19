@@ -9,7 +9,7 @@ import static org.hamcrest.Matchers.is;
 
 public class StudentServiceTest {
     @Test
-    public void should_when_(){
+    public void should_empty_when_create(){
         StudentService studentService =  new StudentServiceImpl();
         assertThat(studentService.getAll(),is(empty()));
     }
