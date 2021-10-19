@@ -2,11 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="677ea606-8d25-466c-abf4-3c4c83743925" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Student-Management-System.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/ControllerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/ControllerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/function/AttendanceFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/function/AttendanceFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/services/ServiceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/ServiceFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/AttendanceController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controllers/AttendanceController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/ControllerFactory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controllers/ControllerFactory$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/ControllerFactory$controllerType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controllers/ControllerFactory$controllerType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/ControllerFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controllers/ControllerFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Function/ClassFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Function/ClassFunction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Function/StudentFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Function/StudentFunction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Models/Attendance.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Models/Attendance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/ServiceFactory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Services/ServiceFactory$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/ServiceFactory$serviceType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Services/ServiceFactory$serviceType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/ServiceFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Services/ServiceFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/impl/AttendanceServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Services/impl/AttendanceServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/impl/ClassServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Services/impl/ClassServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/impl/StudentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Services/impl/StudentServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main.class" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,21 +68,24 @@
     </option>
   </component>
   <component name="ProjectId" id="1zBWAWkI5PoiRQeF2iiWTzks39F" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Compressed/GymManagementSystem-master" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -74,18 +94,6 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.uor.eies" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Application.main">
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -113,8 +121,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StudentServiceTest.should_when_" />
         <item itemvalue="Application.main" />
+        <item itemvalue="JUnit.StudentServiceTest.should_when_" />
         <item itemvalue="JUnit.StudentServiceTest.should_when_" />
         <item itemvalue="Application.main" />
         <item itemvalue="Application.main" />
@@ -141,6 +149,7 @@
       <workItem from="1634490397138" duration="5535000" />
       <workItem from="1634539548800" duration="1934000" />
       <workItem from="1634558448729" duration="1123000" />
+      <workItem from="1634638089238" duration="1864000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1634559377774</created>
@@ -160,50 +169,75 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="init" />
     <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="71" key="#Project_Structure" />
-    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" />
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" />
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" />
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" />
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" />
-    <state x="566" y="284" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" />
-    <state x="566" y="284" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" />
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" />
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" />
-    <state width="466" height="466" key="DebuggerActiveHint" />
-    <state width="466" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" />
-    <state x="549" y="167" key="FileChooserDialogImpl" />
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" />
-    <state width="1493" height="192" key="GridCell.Tab.0.bottom" />
-    <state width="1493" height="192" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" />
-    <state width="1493" height="192" key="GridCell.Tab.0.center" />
-    <state width="1493" height="192" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" />
-    <state width="1493" height="192" key="GridCell.Tab.0.left" />
-    <state width="1493" height="192" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" />
-    <state width="1493" height="192" key="GridCell.Tab.0.right" />
-    <state width="1493" height="192" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" />
-    <state width="1493" height="151" key="GridCell.Tab.1.bottom" />
-    <state width="1493" height="151" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" />
-    <state width="1493" height="151" key="GridCell.Tab.1.center" />
-    <state width="1493" height="151" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" />
-    <state width="1493" height="151" key="GridCell.Tab.1.left" />
-    <state width="1493" height="151" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" />
-    <state width="1493" height="151" key="GridCell.Tab.1.right" />
-    <state width="1493" height="151" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" />
-    <state x="209" y="66" key="new project wizard" />
-    <state x="209" y="66" key="new project wizard/0.0.1536.824@0.0.1536.824" />
+    <state x="361" y="71" key="#Project_Structure" timestamp="1634636924902">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1634636924902" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1634636948630">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1634636948630" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1634636898423" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1634636898423" />
+    <state x="566" y="284" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1634636898423" />
+    <state x="566" y="284" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1634636898423" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1634636898423" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1634636898423" />
+    <state width="466" height="466" key="DebuggerActiveHint" timestamp="1634636898423" />
+    <state width="466" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1634636898423" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1634636898423" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1634636898423" />
+    <state width="1493" height="207" key="GridCell.Tab.0.bottom" timestamp="1634641952735">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1634641952735" />
+    <state width="1493" height="207" key="GridCell.Tab.0.center" timestamp="1634641952735">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1634641952735" />
+    <state width="1493" height="207" key="GridCell.Tab.0.left" timestamp="1634641952734">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1634641952734" />
+    <state width="1493" height="207" key="GridCell.Tab.0.right" timestamp="1634641952735">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1634641952735" />
+    <state width="1493" height="317" key="GridCell.Tab.1.bottom" timestamp="1634637798233">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="317" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1634637798233" />
+    <state width="1493" height="317" key="GridCell.Tab.1.center" timestamp="1634637798233">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="317" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1634637798233" />
+    <state width="1493" height="317" key="GridCell.Tab.1.left" timestamp="1634637798233">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="317" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1634637798233" />
+    <state width="1493" height="317" key="GridCell.Tab.1.right" timestamp="1634637798233">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="317" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1634637798233" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1634638088724">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1634638088724" />
+    <state x="209" y="66" key="new project wizard" timestamp="1634636898423" />
+    <state x="209" y="66" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1634636898423" />
   </component>
 </project>
