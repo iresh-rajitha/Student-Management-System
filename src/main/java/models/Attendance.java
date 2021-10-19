@@ -1,5 +1,7 @@
 package models;
 
+import org.json.JSONObject;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -17,6 +19,11 @@ public class Attendance implements SuperModel {
     }
 
     public Attendance(){
+    }
+    public Attendance(JSONObject explrObject){
+        this.id = explrObject.getInt("id");
+        JSONObject jsonObject= explrObject.getJSONObject("session");
+//        this.session= new Session(jsonObject.getInt());
     }
 
     public Attendance(int id, Session session) {
@@ -45,5 +52,14 @@ public class Attendance implements SuperModel {
         List<Student> temp=this.students;
         temp.add(student);
         this.students=temp;
+    }
+
+    @Override
+    public String toString() {
+        return "{" +
+                "id:" + id +
+                ", session:" + session +
+                ", students:" + students +
+                '}';
     }
 }
