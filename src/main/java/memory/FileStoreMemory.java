@@ -13,7 +13,6 @@ public class FileStoreMemory {
     }
     public boolean writeFile(String data, file type){
         File file = new File("");
-//        System.out.println(file.getAbsolutePath()+"\\src\\main\\java\\memory\\filename.txt");
         String fileName = getFileName(type);;
 
         try {
