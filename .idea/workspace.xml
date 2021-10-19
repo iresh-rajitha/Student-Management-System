@@ -2,27 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="677ea606-8d25-466c-abf4-3c4c83743925" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/ControllerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/ControllerFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/function/AttendanceFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/function/AttendanceFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/ServiceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/ServiceFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/AttendanceController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controllers/AttendanceController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/ControllerFactory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controllers/ControllerFactory$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/ControllerFactory$controllerType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controllers/ControllerFactory$controllerType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/ControllerFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Controllers/ControllerFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Function/ClassFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Function/ClassFunction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Function/StudentFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Function/StudentFunction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Models/Attendance.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Models/Attendance.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Services/ServiceFactory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Services/ServiceFactory$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Services/ServiceFactory$serviceType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Services/ServiceFactory$serviceType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Services/ServiceFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Services/ServiceFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Services/impl/AttendanceServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Services/impl/AttendanceServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Services/impl/ClassServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Services/impl/ClassServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Services/impl/StudentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Services/impl/StudentServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/AttendanceController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/ControllerFactory$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/ControllerFactory$controllerType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Controllers/ControllerFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Function/ClassFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Function/StudentFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Models/Attendance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/ServiceFactory$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/ServiceFactory$serviceType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/ServiceFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/impl/AttendanceServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/impl/ClassServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Services/impl/StudentServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +144,7 @@
       <workItem from="1634490397138" duration="5535000" />
       <workItem from="1634539548800" duration="1934000" />
       <workItem from="1634558448729" duration="1123000" />
-      <workItem from="1634638089238" duration="1864000" />
+      <workItem from="1634638089238" duration="2185000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1634559377774</created>
