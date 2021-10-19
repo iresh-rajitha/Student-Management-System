@@ -30,7 +30,6 @@ public class Student implements SuperModel {
         } catch (ParseException e) {
             e.printStackTrace();
         }
-
     }
 
     public void setId(int id) {

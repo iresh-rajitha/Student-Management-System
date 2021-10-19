@@ -51,6 +51,7 @@ public class StudentFunction {
         }while (input != 0);
         System.out.println("Exit From Student");
     }
+
     public boolean addStudent(Scanner scanner)  {
         studentController.add(getStudentDetails(scanner,0));
         return true;
