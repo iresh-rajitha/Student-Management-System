@@ -37,6 +37,7 @@ public class FileStoreMemory {
         try {
             myReader = new Scanner(myObj);
         } catch (FileNotFoundException e) {
+            System.out.println("File Not Found");
             e.printStackTrace();
         }
         StringBuilder full = new StringBuilder();

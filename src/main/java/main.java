@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class main {
     public static void main(String[] args) {
-        ControllerFactory controllerFactory = ControllerFactory.getInstance();
+//        ControllerFactory controllerFactory = ControllerFactory.getInstance();
 
 
         Scanner scan = new Scanner(System.in);
@@ -37,7 +37,7 @@ public class main {
             }
 
             if (1 == input){
-                StudentFunction studentFunction = new StudentFunction(controllerFactory);
+                StudentFunction studentFunction = new StudentFunction();
                 studentFunction.studentConsole(scan);
             } else if (2 == input) {
                 ClassFunction classFunction = new ClassFunction();
