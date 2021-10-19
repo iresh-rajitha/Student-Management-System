@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="677ea606-8d25-466c-abf4-3c4c83743925" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/memory/Student.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/memory/Student.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/services/StudentServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/services/StudentServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,13 +78,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.main">
-    <configuration name="MemoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MemoryTest" />
-      <module name="Student Management" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main" />
       <module name="Student Management" />
@@ -90,7 +85,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentServiceTest.should_when_" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Student Management" />
       <extension name="coverage">
         <pattern>
@@ -100,7 +95,54 @@
       </extension>
       <option name="PACKAGE_NAME" value="services" />
       <option name="MAIN_CLASS_NAME" value="services.StudentServiceTest" />
-      <option name="METHOD_NAME" value="should_when_" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentServiceTest.should_containSame_when_GetAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Student Management" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="services" />
+      <option name="MAIN_CLASS_NAME" value="services.StudentServiceTest" />
+      <option name="METHOD_NAME" value="should_containSame_when_GetAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentServiceTest.should_hasOrder_when_add2Objects" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Student Management" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="services" />
+      <option name="MAIN_CLASS_NAME" value="services.StudentServiceTest" />
+      <option name="METHOD_NAME" value="should_hasOrder_when_add2Objects" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentServiceTest.should_notEmpty_when_addObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Student Management" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="services" />
+      <option name="MAIN_CLASS_NAME" value="services.StudentServiceTest" />
+      <option name="METHOD_NAME" value="should_notEmpty_when_addObject" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -108,9 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StudentServiceTest" />
+        <item itemvalue="JUnit.StudentServiceTest.should_containSame_when_GetAll" />
+        <item itemvalue="JUnit.StudentServiceTest.should_hasOrder_when_add2Objects" />
+        <item itemvalue="JUnit.StudentServiceTest.should_notEmpty_when_addObject" />
         <item itemvalue="Application.main" />
-        <item itemvalue="Application.MemoryTest" />
-        <item itemvalue="JUnit.StudentServiceTest.should_when_" />
       </list>
     </recent_temporary>
   </component>
@@ -181,22 +225,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1634594429320" />
-    <state width="1493" height="259" key="GridCell.Tab.0.bottom" timestamp="1634605173433">
+    <state width="1493" height="161" key="GridCell.Tab.0.bottom" timestamp="1634636652565">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="259" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1634605173433" />
-    <state width="1493" height="259" key="GridCell.Tab.0.center" timestamp="1634605173432">
+    <state width="1493" height="161" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1634636652565" />
+    <state width="1493" height="161" key="GridCell.Tab.0.center" timestamp="1634636652565">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="259" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1634605173432" />
-    <state width="1493" height="259" key="GridCell.Tab.0.left" timestamp="1634605173432">
+    <state width="1493" height="161" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1634636652565" />
+    <state width="1493" height="161" key="GridCell.Tab.0.left" timestamp="1634636652564">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="259" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1634605173432" />
-    <state width="1493" height="259" key="GridCell.Tab.0.right" timestamp="1634605173432">
+    <state width="1493" height="161" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1634636652564" />
+    <state width="1493" height="161" key="GridCell.Tab.0.right" timestamp="1634636652565">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="259" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1634605173432" />
+    <state width="1493" height="161" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1634636652565" />
     <state width="1493" height="259" key="GridCell.Tab.1.bottom" timestamp="1634605173433">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
