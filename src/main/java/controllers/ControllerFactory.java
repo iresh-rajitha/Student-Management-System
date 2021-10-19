@@ -1,6 +1,7 @@
 package controllers;
 
 import controllers.impl.ClassControllerImpl;
+import controllers.impl.SessionControllerImpl;
 import controllers.impl.StudentControllerImpl;
 
 public class ControllerFactory {
@@ -20,6 +21,7 @@ public class ControllerFactory {
         switch (type){
             case STUDENT: return (SuperController) new StudentControllerImpl();
             case CLASS: return (SuperController) new ClassControllerImpl();
+            case SESSION: return (SuperController) new SessionControllerImpl();
             default: return null;
         }
     }
