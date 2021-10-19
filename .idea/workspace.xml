@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="677ea606-8d25-466c-abf4-3c4c83743925" name="Default Changelist" comment="" />
+    <list default="true" id="677ea606-8d25-466c-abf4-3c4c83743925" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/memory/Class.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/memory/Class.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Class.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Class.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Models/Class.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Models/Class.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +40,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="new_branch" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -49,12 +54,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Compressed/GymManagementSystem-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -68,9 +73,16 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.main">
+    <configuration name="MemoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MemoryTest" />
+      <module name="Student Management" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main" />
-      <module name="Student Management" />
+      <module name="Student-Management-System" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -94,10 +106,12 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.main" />
+        <item itemvalue="Application.MemoryTest" />
         <item itemvalue="JUnit.StudentServiceTest.should_when_" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -117,83 +131,28 @@
       <workItem from="1634392928043" duration="9362000" />
       <workItem from="1634490397138" duration="5535000" />
       <workItem from="1634539548800" duration="1934000" />
+      <workItem from="1634581453644" duration="21435000" />
+      <workItem from="1634619253234" duration="5499000" />
+      <workItem from="1634625527668" duration="3583000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="361" y="71" key="#Project_Structure" timestamp="1633785512041">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1633785512041" />
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1633621925749">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1633621925749" />
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1634541005893">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1634541005893" />
-    <state x="566" y="284" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1633787494475">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="566" y="284" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1633787494475" />
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1633787471783">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1633787471783" />
-    <state width="466" height="466" key="DebuggerActiveHint" timestamp="1634320380970">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="466" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1634320380970" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1633625434922">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1633625434922" />
-    <state width="1493" height="192" key="GridCell.Tab.0.bottom" timestamp="1634499842353">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="192" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1634499842353" />
-    <state width="1493" height="192" key="GridCell.Tab.0.center" timestamp="1634499842353">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="192" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1634499842353" />
-    <state width="1493" height="192" key="GridCell.Tab.0.left" timestamp="1634499842353">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="192" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1634499842353" />
-    <state width="1493" height="192" key="GridCell.Tab.0.right" timestamp="1634499842353">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="192" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1634499842353" />
-    <state width="1493" height="151" key="GridCell.Tab.1.bottom" timestamp="1634322624963">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="151" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1634322624963" />
-    <state width="1493" height="151" key="GridCell.Tab.1.center" timestamp="1634322624963">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="151" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1634322624963" />
-    <state width="1493" height="151" key="GridCell.Tab.1.left" timestamp="1634322624963">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="151" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1634322624963" />
-    <state width="1493" height="151" key="GridCell.Tab.1.right" timestamp="1634322624963">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="151" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1634322624963" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1634539975165">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1634539975165" />
-    <state x="209" y="66" key="new project wizard" timestamp="1634491632634">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="209" y="66" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1634491632634" />
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
