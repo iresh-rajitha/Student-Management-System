@@ -1,9 +1,7 @@
 package services.impl;
 
 import memory.SessionMemoryStore;
-import models.Class;
 import models.Session;
-import models.Student;
 import services.SessionService;
 
 import java.util.ArrayList;

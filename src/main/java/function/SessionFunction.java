@@ -76,7 +76,7 @@ public class SessionFunction {
         eminute = Integer.parseInt(scanner.nextLine());
         String sTime = day +"-"+month+"-"+year+" "+shour+":"+sminute;
         String eTime = day +"-"+month+"-"+year+" "+ehour+":"+eminute;
-        SimpleDateFormat formatter = new SimpleDateFormat("dd-MM-yyyy HH:mm");
+        SimpleDateFormat formatter = new SimpleDateFormat("E MMM dd HH:mm:ss Z yyyy");
         try {
             Date sDateTime = formatter.parse(sTime);
             Date eDateTime = formatter.parse(eTime);
